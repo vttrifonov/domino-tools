@@ -1,5 +1,8 @@
 #!/bin/bash
 
+mkdir -p /tpp
+cd /tpp
+
 url=https://sourceforge.net/projects/sashimi/files/Trans-Proteomic%20Pipeline%20%28TPP%29/TPP%20v6.1%20%28Parhelion%29%20rev%200/
 file=TPP_6.1.0-src.tgz
 release=6-1-0
