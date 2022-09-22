@@ -11,7 +11,10 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 go install github.com/mitchellh/gox@latest
 
-cd /philoshopher
+cd /
+git clone https://github.com/Nesvilab/philosopher.git
+
+cd /philosopher
 unzip -o lib/dat/bindata.go.zip -d  lib/dat/
 
 unzip -o lib/ext/cdhit/unix/bindata.go.zip -d  lib/ext/cdhit/unix/
